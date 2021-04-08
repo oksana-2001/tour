@@ -1,0 +1,25 @@
+.contacts {
+    width: 1141px;
+	font-style: normal;
+	text-align: right;
+	margin-left: auto;
+
+   
+  }
+  .contacts__phone {
+	text-decoration: none;
+	font-size: 26px;
+	line-height: 20px;
+	
+	
+  }
+  .contacts__work {
+	font-size: 13px;
+	text-decoration: underline;
+  }
+  .contacts__text {
+	
+	font-size: 11px;
+	color: #9a9a9a;
+	line-height: 20px;
+  }

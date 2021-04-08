@@ -1,0 +1,99 @@
+.offers {
+	height: 549px;
+	margin-bottom: 127px;
+}
+.container__offers{
+	display: flex;
+   width: 1141px;
+	
+	flex-direction: column;
+   
+}
+
+.title__title--fire {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	
+
+}
+
+.title__title--fire::after {
+    display: block;
+	width: 28px;
+	height: 28px;
+	background-image: url(../../img/flame.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 0;
+}
+
+  
+.offers__list {
+	margin-bottom: 127px;
+	display: flex;
+	justify-content: space-between;
+	width: 1141px;
+	height: 449px;
+}
+
+  .offers__img {
+	width: 362px;
+	max-height: 144px;
+}
+
+.offers__item {
+	
+	justify-content: space-between;
+	background: #ffffff;
+	border-radius: 5px;
+	min-height: 449px;
+
+	width: 362px;
+}
+
+
+.offers__content {
+	padding: 36px 30px;
+	color: #010001;
+	width: 362px;
+}
+
+.offers__title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 21px;
+}
+
+.offers__features {
+	margin-bottom: 11px;
+}
+
+.offers__feature {
+	display: inline-block;
+	margin-right: 28px;
+}
+
+
+.offers__feature-icon {
+	display: inline-block;
+	margin-right: 10px;
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+}
+
+.offers__feature-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+  
+.offers__text {
+	font-size: 14px;
+	font-style: normal;
+	display: inline-block;
+	margin-bottom: 24.5px;
+	width: 324px;
+	height: 63px;
+	margin-top: 0;
+}
