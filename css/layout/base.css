@@ -20,7 +20,10 @@ body {
 
 .wrapper__content{
 	flex: 1;
-    background: url(../../img/hero.png) center top no-repeat,
+    
+}
+.wrapper__conten__header{
+	background: url(../../img/hero.png) center top no-repeat,
     url(../../img/bootom.png) center bottom no-repeat;
 }
 

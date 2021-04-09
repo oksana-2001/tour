@@ -13,8 +13,7 @@
 	border: 2px solid #f5170e;
   }
 
-  .button__header, .button__review{
-	display: flex;
+  .button__detail{
     background: #f5170e;
 	border-radius: 35px;
 	width: 168px;
