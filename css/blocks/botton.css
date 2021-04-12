@@ -1,27 +1,27 @@
 .button{
 	display: flex;
-    background: #f5170e;
+    background: #ffffff;
 	border-radius: 35px;
 	width: 135px;
 	height: 55px;
 	align-items: center;
 	justify-content: center;
     font-weight: bold;
-	color: #ffffff;
+	color: #f5170e;
 	text-transform: uppercase;
 	text-decoration: none;
 	border: 2px solid #f5170e;
   }
 
   .button__detail{
-    background: #f5170e;
+    background: #ffffff;
 	border-radius: 35px;
 	width: 168px;
 	height: 55px;
 	align-items: center;
 	justify-content: center;
     font-weight: bold;
-	color: #ffffff;
+	color: #f5170e;
 	text-transform: uppercase;
 	text-decoration: none;
 	border: 2px solid #f5170e;
@@ -29,6 +29,6 @@
   }
   
   .button:hover {
-	color: #f5170e;
-	background: #ffffff;
+	color: #ffffff;
+	background: #f5170e;
   }

@@ -7,9 +7,11 @@
 	font-size: 14px;
 	padding-right:5px;
 }
+.breadcrumbs__link:hover{
+	color: #f5170e;
+}
+
 .breadcrumbs__item{
-	
-	
 	display: flex;
 	align-items: center;
 }

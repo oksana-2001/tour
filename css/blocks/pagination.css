@@ -6,8 +6,21 @@
 	
 	align-items: center;
 	cursor: pointer;
+} 
+.pagination--theme--light{
+color: #000000;
 }
-  
+
+.pagination--theme--light .pagination__item--active .pagination__link{
+	color: #FFFFFF;
+	background: #F5170E;
+}
+
+.pagination--theme--light .pagination__item--active .pagination__link:hover{
+	color: #FFFFFF;
+	background: #F5170E;
+
+}
   .pagination__list {
 	display: flex;
 	align-items: center;

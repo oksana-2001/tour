@@ -148,34 +148,34 @@
             <div class="container container__news">
               <h2 class="section__title">Новости и акции</h2>
               <ul class="news__list">
-                <li class="news__item single-news">
+                <li class="news__item">
                   <img
                     src="img/plain.png"
                     alt="plain"
-                    class="single-news__image"
+                    class="news__item__image"
                   />
-                  <div class="single-news__content">
-                    <div class="single-news__date">Декабрь 2019</div>
-                    <div class="single-news__title">
+                  <div class="news__item__content">
+                    <div class="news__item__date">Декабрь 2019</div>
+                    <div class="news__item__title">
                       Дешевые петёвки на Новый год!
                     </div>
-                    <div class="single-news__text">
+                    <div class="news__item__text">
                       Проведи новый год в Тайланде
                     </div>
                   </div>
                 </li>
-                <li class="new__item single-news">
+                <li class="news__item">
                   <img
                     src="img/Surfer.png"
                     alt="surfer"
-                    class="single-news__image"
+                    class="news__item__image"
                   />
-                  <div class="single-news__content">
-                    <div class="single-news__date">Декабрь 2019</div>
-                    <div class="single-news__title">
+                  <div class="news__item__content">
+                    <div class="news__item__date">Декабрь 2019</div>
+                    <div class="news__item__title">
                       Акция для серфенгистов!
                     </div>
-                    <div class="single-news__text">
+                    <div class="news__item__text">
                       В сезон больших волн скидка на путевку в Тайланд на
                       островсерфенгистов. Удачного пути!
                     </div>
@@ -188,7 +188,7 @@
                   <span class="pagination__ctoun">7</span>
                 </div>
                 <ul class="pagination__list">
-                  <li class="pagination__item">1</li>
+                  <li class="pagination__item"><a href="#" class="pagination__link">1</a></li>
                   <li class="pagination__item">2</li>
                   <li class="pagination__item">3</li>
                   <li class="pagination__item">4</li>
@@ -229,8 +229,9 @@
           </section>
       </div>
       </div>
-      <footer class="footer">
-            <div class="container container__footer">
+      <footer class="footer-container">
+            <div class="container footer-container__content">
+              <div class="footer footer-container__section">
               <a href="/" class="logo">
                 <img src="img/logoasia.png" alt="logo" class="logo__pic" />
               </a>
@@ -269,15 +270,14 @@
                   </a>
                 </li>
               </ul>
-
-              <address class="contacts">
+               <address class="contacts">
                 <p class="contacts__text">Бесплатный звонок по России</p>
                 <a href="tel:+78007003030" class="contacts__phone"
                   >8 800 700 30 30</a
                 >
               </address>
             </div>
-        
+          </div>
           </footer>
        
      

@@ -1,15 +1,36 @@
-.footer{
-	
-	margin-bottom: 57.36px;
-	
+.footer-container__section{
+	margin-top: 12px;
+	height: 140px;
+
 }
 
-.container__footer{
-    border-top: 0.1px solid #ffffff;
-	align-items: flex-end;
+.footer{
+	position: relative;
+	width: 1141px;
+	margin-bottom: 57.36px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-container{
+    
+	height: 140px;
 	margin-top: auto;
 	
-	
+}
+
+.footer-container__content{
+	border-top: 0.1px solid #ffffff;
+}
+
+
+.inner-footer{
+	margin-top: auto;
 
 }
 
+.inner-footer__section{
+	height: 132px;
+	margin: 0;
+}
