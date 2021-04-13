@@ -9,6 +9,7 @@
 } 
 .pagination--theme--light{
 color: #000000;
+margin-bottom: 65px;
 }
 
 .pagination--theme--light .pagination__item--active .pagination__link{

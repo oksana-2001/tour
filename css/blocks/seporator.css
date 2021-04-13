@@ -6,17 +6,27 @@
 .separator__content{
 	height: 360px;
 	width: 1141px;
-	display:flex;
-	
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
 
 }
 .separator__img{
 	width: 487px;
-	height: 341px;
-	padding-top: 21px;
-	
-	
-	
+	height: 360px;
+	padding-top: 10px;
 
+}
+
+.separator__title{
+	display: flex;
 	
+	color: #FFFFFF;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1.1;
+	width: 595px;
+	height: 130px;
+
 }
