@@ -1,0 +1,22 @@
+.separator{
+	min-height: 360px;
+	background: url(../../img/Rectangle.png); 
+}
+
+.separator__content{
+	height: 360px;
+	width: 1141px;
+	display:flex;
+	
+
+}
+.separator__img{
+	width: 487px;
+	height: 341px;
+	padding-top: 21px;
+	
+	
+	
+
+	
+}
