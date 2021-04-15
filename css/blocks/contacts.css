@@ -3,8 +3,7 @@
 	font-style: normal;
 	text-align: right;
 	margin-left: auto;
-
-   
+	
   }
   .contacts__phone {
 	text-decoration: none;
@@ -13,10 +12,7 @@
 	
 	
   }
-  .contacts__work {
-	font-size: 13px;
-	text-decoration: underline;
-  }
+  
   .contacts__text {
 	
 	font-size: 11px;

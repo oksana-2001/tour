@@ -1,9 +1,10 @@
 .logo {
-	display: block;
-    width: 85px;
-    height: 36px;
+	display: flex;
+    align-items: center;
 }
+   
 .logo__pic{
     width: 85px;
-    height: 36px
+    height: 36px;
+   
 }
