@@ -37,6 +37,7 @@
 
 .partners__link:hover {
   filter: grayscale(0);
+  transition: 1s;
 }
 
 .partners__item {

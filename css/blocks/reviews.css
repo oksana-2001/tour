@@ -1,91 +1,89 @@
-.reviews__list{
-	column-count: 2;
-	column-gap: 30px;
+.reviews__list {
+  column-count: 2;
+  column-gap: 30px;
 }
 
-.reviews__item{
-	margin-bottom: 17px;
+.reviews__item {
+  margin-bottom: 17px;
 }
 
-.reviews{
-	display: inline-flex;
-	flex-direction: column;
-	padding: 50px 30px;
-	background: #F4F5F5;
-	color: #060606;
+.reviews {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: #f4f5f5;
+  color: #060606;
 }
 
-.avatar{
-	width: 142px;
-	height: 142px;
-	overflow: hidden;
-	margin-right: 22px;
+.avatar {
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  margin-right: 22px;
 }
 
-.reviews__tags{
-	display: flex;
-	align-items: flex-start;
+.reviews__tags {
+  display: flex;
+  align-items: flex-start;
 }
 
-.tag{
-	font-size: 13px;
-	color: #303030;
-	padding: 8px 16px;
-	border-radius: 50px;
-	background: #E7E7E7;
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 8px 16px;
+  border-radius: 50px;
+  background: #e7e7e7;
 }
 
-.tag--bg--green{
-	background: #B9EAE4;
+.tag--bg--green {
+  background: #b9eae4;
 }
 
-.reviews__header{
-	display: flex;
-	align-items: center;
-	margin-bottom: 30px;
+.reviews__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.reviews__user{
-	display: flex;
-	align-items: center;
-	font-size: 24px;
-	font-weight: 700;
-	color: #2E77A4;
-	margin-bottom: 11px;
+.reviews__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2e77a4;
+  margin-bottom: 11px;
 }
 
-.reviews__user::after{
-	content:url("../../img/vk-blue\ 1.png");
-	height: 29px;
+.reviews__user::after {
+  content: url("../../img/vk-blue\ 1.png");
+  height: 29px;
 }
 
-.reviews__title{
+.reviews__title {
   font-size: 30px;
-  color: #1A1B1E;
+  color: #1a1b1e;
   font-weight: 700;
   margin-bottom: 23px;
 }
 
-.reviews__text{
-	margin-bottom: 50px;
+.reviews__text {
+  margin-bottom: 50px;
 }
 
-.reviews__data{
-	font-size: 14px;
-	color: #1A1B1E;
-	font-weight: 700;
+.reviews__data {
+  font-size: 14px;
+  color: #1a1b1e;
+  font-weight: 700;
 }
 
-
-.form__button__detail{
-	margin-right: 20px;
+.form__button__detail {
+  margin-right: 20px;
 }
 
-.form__button__detail:last-child{
-	margin-right: 0;
-
+.form__button__detail:last-child {
+  margin-right: 0;
 }
-.form__buttons{
-	display: flex;
-	justify-content: flex-end;
+.form__buttons {
+  display: flex;
+  justify-content: flex-end;
 }

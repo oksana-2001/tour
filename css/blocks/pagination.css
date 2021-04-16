@@ -1,64 +1,65 @@
 .pagination {
-	display: flex;
-	margin: 0 auto;
-	justify-content: center;
-	
-	
-	align-items: center;
-	cursor: pointer;
-} 
-.pagination--theme--light{
-color: #000000;
-margin-bottom: 65px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-.pagination--theme--light .pagination__item--active .pagination__link{
-	color: #FFFFFF;
-	background: #F5170E;
+.pagination--theme--light {
+  color: #000000;
+  margin-bottom: 65px;
 }
 
-.pagination--theme--light .pagination__item--active .pagination__link:hover{
-	color: #FFFFFF;
-	background: #F5170E;
-
+.pagination--theme--light .pagination__item--active .pagination__link {
+  color: #ffffff;
+  background: #f5170e;
 }
-  .pagination__list {
-	display: flex;
-	align-items: center;
+
+.pagination--theme--light .pagination__item--active .pagination__link:hover {
+  color: #ffffff;
+  background: #f5170e;
+  transition: 1s;
 }
-  
-  .pagination__info {
-	margin-right: 26px;
-	display: inline-block;
-  }
 
-  .pagination__item {
-	  text-align: center;
-	  display: inline-block;
-	  margin-right: 9px;
-	  width: 32px;
-	  height: 32px;
-	  border-radius: 50%;
-	  text-decoration: none;
-	  font-weight: bold;
-	  line-height: 32px;
-  }
+.pagination__list {
+  display: flex;
+  align-items: center;
+}
 
-  .pagination__item:last-child {
-	margin-right: 0;
-  }
+.pagination__info {
+  margin-right: 26px;
+  display: inline-block;
+}
 
-  .pagination__item:hover {
-	background: #ffffff;
-	color: #f5170e;
-  }
-  
-  .pagination__link {
-	display: inline-block;
-	width: 32px;
-	height: 32px;
-	border-radius: 50%;
-	text-decoration: none;
-	font-weight: bold;
-	line-height: 32px;
-  }
+.pagination__item {
+  text-align: center;
+  display: inline-block;
+  margin-right: 9px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.pagination__item:last-child {
+  margin-right: 0;
+}
+
+.pagination__item:hover {
+  background: #ffffff;
+  color: #f5170e;
+  transition: 1s;
+}
+
+.pagination__link {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}

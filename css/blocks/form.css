@@ -1,67 +1,78 @@
-.form__row{
-	display: flex;
-	margin-bottom: 30px;
+.form__row {
+  display: flex;
+  margin-bottom: 30px;
 }
 
-.form__imput{
-	flex: 1;
-	margin-right: 30px;
-	border-radius: 4px;
-	border: none;
-	background: #FFFFFF;
-	padding: 22px 30px;
-	font-size: 18px;
-	color: #1A1B1E;
+.form__imput {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 4px;
+  border: none;
+  background: #ffffff;
+  padding: 22px 30px;
+  font-size: 18px;
+  color: #1a1b1e;
 }
 
-.form__imput:focus{
-	border: none;
+.form__imput:focus {
+  outline: none;
+  border: 1px solid #f5170e;
 }
 
-.form__imput::placeholder{
-	color: #666;
+.form__imput::placeholder {
+  color: #666;
 }
 
-.form__imput:last-child{
-	margin-right: 0px;
+.form__imput:last-child {
+  margin-right: 0px;
 }
 
-.form__input--textarea{
-	flex: 1;
-	height: 235px;
-	padding-left: 30px;
-	padding-top: 29px;
+.form__input--textarea {
+  flex: 1;
+  height: 235px;
+  padding-left: 30px;
+  padding-top: 29px;
+  background: #ffffff;
+  border: none;
 }
 
-.form__controls{
-	display: flex;
-    margin-bottom: 32px;
+.form__input--textarea::placeholder {
+  color: #666;
 }
 
-.form__controls-title{
-color: #1A1B1E;
-width: 366px;
-
+.form__input--textarea:focus {
+  outline: none;
+  border: 1px solid #f5170e;
 }
 
-.controls{
-	flex: 1;
-	display: flex;
-	flex-wrap: wrap;
+.form__controls {
+  display: flex;
+  margin-bottom: 32px;
 }
 
-.controls__item{
-	margin-bottom: 10px;
-	margin-right: 10px;
-}
-.controls__ilem{
-	cursor: pointer;
+.form__controls-title {
+  color: #1a1b1e;
+  width: 366px;
 }
 
-.controls__checkbox:checked ~ .controls__tag{
-	background: #B9EAE4;
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.controls__checkbox{
-	display: none;
+.controls__item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.controls__ilem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #b9eae4;
+}
+
+.controls__checkbox {
+  display: none;
 }

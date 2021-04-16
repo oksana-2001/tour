@@ -1,33 +1,31 @@
 .menu {
   display: flex;
-	margin-left: 79px;
+  margin-left: 79px;
   align-items: center;
- 
 }
 
-.menu__list{
+.menu__list {
   display: flex;
   justify-content: space-between;
- 
   width: 264px;
   height: 19px;
-  
 }
-.memu__item {
-	display: inline-block;
-  
 
- 
-	cursor: pointer;
-  
-  }
-  .memu__item:last-child {
-	margin-right: 0;
-  }
-  .menu__link {
-	font-size: 14px;
-	text-decoration: none;
-  }
-.menu__link:hover{
+.memu__item {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.memu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
   color: #f5170e;
+  transition: 1s;
 }

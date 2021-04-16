@@ -1,32 +1,29 @@
-.separator{
-	min-height: 360px;
-	background: url(../../img/Rectangle.png); 
+.separator {
+  min-height: 360px;
+  background: url(../../img/Rectangle.png);
 }
 
-.separator__content{
-	height: 360px;
-	width: 1141px;
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	align-items: center;
-
-}
-.separator__img{
-	width: 487px;
-	height: 360px;
-	padding-top: 10px;
-
+.separator__content {
+  height: 360px;
+  width: 1141px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.separator__title{
-	display: flex;
-	
-	color: #FFFFFF;
-	font-size: 48px;
-	font-weight: 700;
-	line-height: 1.1;
-	width: 595px;
-	height: 130px;
+.separator__img {
+  width: 487px;
+  height: 360px;
+  padding-top: 10px;
+}
 
+.separator__title {
+  display: flex;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  width: 595px;
+  height: 130px;
 }

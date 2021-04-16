@@ -1,23 +1,18 @@
-.top-line{
-	display: flex;
-	flex-direction: column;
-	 min-height: 412px;
-	 padding-bottom: 25px;
-	 background: url("../../img/headline\ 1.png")right top no-repeat;
-	 
+.top-line {
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  padding-bottom: 25px;
+  background: url("../../img/headline\ 1.png") right top no-repeat;
 }
 
-.container__top-line{
-	
-	display: flex;
-	flex-direction: column;
-	flex: 1;
-	justify-content: space-between;
-	
+.container__top-line {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
 }
 
-.header__top-line{
-	margin-bottom:10px;
-	
-
+.header__top-line {
+  margin-bottom: 10px;
 }
