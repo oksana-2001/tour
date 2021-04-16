@@ -34,3 +34,37 @@
 	color: #ffffff;
 	background: #f5170e;
   }
+
+  .button__detail--color--black{
+	background: #8E8E8E;
+	color: #FFFFFF;
+
+	border: none;
+}
+
+.button__detail--color--black:hover{
+	background: #2B2B2B;
+	border: none;
+}
+
+.button__detail--color--black:focus{
+	outline: none;
+}
+.button__detail--color--red{
+	background: #F5170E;
+	color: #FFFFFF;
+
+	border: none;
+}
+
+.button__detail--color--red:hover{
+	background: #F5170E;
+	border: none;
+
+}
+
+.button__detail--color--red:focus{
+	outline: none;
+	
+
+}

@@ -28,13 +28,14 @@
 	margin-bottom: 65px;
 }
 .central--asia{
-	opacity: 0 ;
+	
 	animation: zoom 0.9c ease-in;
 	animation-fill-mode: forwards;
 }
 
 @keyframes zoom{
 	from{
+		opacity: 0 ;
        transform: scale(.7);
 
 	}
@@ -61,3 +62,4 @@
 	}
 
 }
+
